@@ -9,7 +9,7 @@ public class isHappy {
     public static boolean isHappy(int n) {
         String strN = String.valueOf(n);
         int nLength = strN.length();
-        if (nLength <= 1){
+        if (nLength == 1){
             return false;
         }
         boolean returnBool = happy(strN);
